@@ -472,12 +472,13 @@ enum acer_wmi_predator_v4_oc {
      .mailled = 1,
  };
  
- static struct quirk_entry quirk_acer_predator_ph315_53 = {
+static struct quirk_entry quirk_acer_predator_ph315_53 = {
      .turbo = 1,
      .cpu_fans = 1,
      .gpu_fans = 1,
      .predator_v4 = 1,
- };
+     .four_zone_kb = 1,
+};
  
  static struct quirk_entry quirk_acer_predator_phn16_71 = {
      .predator_v4 = 1,
